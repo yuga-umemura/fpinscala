@@ -1,5 +1,7 @@
 package fpinscala.examples.gettingstarted
 
+import fpinscala.exercises.gettingstarted.* 
+
 object MyModule:
   def abs(n: Int): Int = {
     if (n < 0) -n
@@ -26,3 +28,7 @@ object MyModule:
   def main(args: Array[String]): Unit =
     println(formatAbs(-42))
     println(formatFactorial(7))
+    
+    val n = 5
+    val result = MyProgram.fib(n)
+    println(s"The ${n}th Fibonacci number is: ${result}")
