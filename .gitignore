@@ -1,0 +1,57 @@
+# sbt
+/target/
+/project/target/
+/project/project/
+
+# metadata
+/.idea/
+/*.iml
+*.class
+*.log
+*.lock
+*.cache
+*.bak
+*.tmp
+
+# Metals
+.metals/
+.bloop/
+.bsp/
+
+# vscode
+.vscode/
+
+# macOS
+.DS_Store
+
+# git-relevant
+*.log
+*.lock
+*.tmp
+*.bak
+*.orig
+*.rej
+*.sublime-project
+*.sublime-workspace
+*.vscode
+*.history/
+
+# cache
+/.ivy2/
+/.coursier/
+/.sbt/
+/.mill/
+
+# Log dir and other custom file
+/logs/
+/dist/
+/tmp/
+/out/
+/build/
+
+# Coverage
+/coverage/
+/.hypothesis/
+
+# Scalafmt
+.scalafmt.conf.lock
