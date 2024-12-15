@@ -1,9 +1,0 @@
-
-ƒ0src/main/scala/fpinscala/introduction/Cafe.scala2
- 
-fpinscala/2!
- fpinscala/introduction/:ï
- æNo class, trait or object is defined in the compilation unit.
-The incremental compiler cannot record the dependency information in such case.
-Some errors like unused import referring to a non-existent class might not be reported.
-PZ 8DE4F2DF91592EC6909585C422EB3A51
