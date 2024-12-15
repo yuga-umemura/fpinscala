@@ -1,4 +1,4 @@
-package fpinscala.introduction
+package fpinscala.examples.introduction
 
 object IntroductionModule:
   class Cafe:
